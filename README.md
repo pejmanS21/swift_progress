@@ -17,7 +17,7 @@ age = "twenty-three"    // Error
 
 ```swift
 let name = "Pejman"     // String
-name = "Homayouni"      // Error (Constants values can't changed)
+name = "Pezhman"      // Error (Constants values can't changed)
 ```
 ---
 ## Loops
@@ -28,7 +28,7 @@ Loop structures in swift
 
 ```swift
 for i in 1...5 {
-		print(i)
+	print(i)
 }
 /* --- output --- */
 /* 1
