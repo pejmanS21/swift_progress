@@ -94,7 +94,7 @@ struct pythonView_Previews: PreviewProvider {
 
 > Output
 
-![view.png](./images/view.png)
+![view.png](./assets/view.png)
 
 ---
 
@@ -175,7 +175,7 @@ struct SwiftUIView_Previews: PreviewProvider {
 }
 ```
 
-![Button.gif](./images/Button.gif)
+![Button.gif](./assets/Button.gif)
 
 ---
 
@@ -199,5 +199,40 @@ Text("This one also change")
 
 Spacer()                            // add space between views
 ```
+
+---
+
+## NavigationView
+
+```swift
+import SwiftUI
+
+struct NavigationExperiment: View {
+    var body: some View {
+        VStack {
+            NavigationView { 
+                List { 
+                    Text("Navigation View Content")
+                    NavigationLink("Push Me!") { 
+                        Text("I'm the destination View")
+                            .navigationTitle("Destination")
+                    }
+                    .foregroundColor(.blue)
+                    
+                }
+            }
+        }
+    }
+}
+
+struct NavigationExperiment_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationExperiment().assess()
+    }
+}
+```
+
+>check this [nav.gif](./assets/nav.gif) to learn about NavigationView and NavigationLinks
+>>Important Note: `NavigationLink` **must** be inside `NavigationView`
 
 ---
