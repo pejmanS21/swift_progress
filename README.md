@@ -85,5 +85,7 @@ Circle()
 
 ---
 
-## Functions
+## Functions & Classes
 * [functions](./resources/functions/func.swift)
+
+* [classes](./resources/classes/class.swift)
