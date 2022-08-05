@@ -84,3 +84,6 @@ Circle()
 >>Important Note: `NavigationLink` **must** be inside `NavigationView`
 
 ---
+
+## Functions
+* [functions](./resources/functions/func.swift)
