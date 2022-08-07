@@ -89,3 +89,14 @@ Circle()
 * [functions](./resources/functions/func.swift)
 
 * [classes](./resources/classes/class.swift)
+
+---
+
+## StoryBoards & Codes
+
+>***How to attach storyboard elements in code and use them?***
+> Via IBOutlets & IBActions
+
+![ib](./assets/iboutlet.gif)
+
+---
